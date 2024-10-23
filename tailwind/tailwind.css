@@ -94,13 +94,13 @@
   }
   
   .tab-button.active {
-      background-color: #fbbf24; /* رنگ پس زمینه مشابه فیلیمو */
+      background-color: #2b2b2b; /* رنگ پس زمینه مشابه فیلیمو */
       color: #1f2937; /* رنگ متن در حالت فعال */
   }
   
   .tab-button:not(.active) {
       background-color: transparent;
-      color: #fbbf24; /* رنگ متن برای دکمه غیرفعال */
+      color: #2b2b2b; /* رنگ متن برای دکمه غیرفعال */
   }
   
   .tab-button:hover:not(.active) {
