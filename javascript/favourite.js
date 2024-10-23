@@ -24,12 +24,12 @@ const seriesClickHandler = (index) => {
 };
 const movie = async () => {
   await axios
-    .get("https://github.io/filimo-api/series.json")
+    .get("https://amirbeygi83.github.io/filimo-api/series.json")
     .then((res) => {
       series = res.data;
     });
   await axios
-    .get("https://github.io/filimo-api/movies.json")
+    .get("https://amirbeygi83.github.io/filimo-api/movies.json")
     .then((res) => {
       movies = res.data;
     });
