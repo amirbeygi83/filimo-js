@@ -2,7 +2,7 @@ const freeSwiper = document.querySelector("#free__content");
 async function fetchContent() {
   try {
     const response = await fetch(
-      "https://github.io/amirbeygi83.filimo-api/freeContent.json"
+      "https://amirbeygi83.github.io/data/freeContent.json"
     );
     const contents = await response.json();
     contents.map((content) => {

@@ -2,7 +2,7 @@
   const commSwiper = document.querySelector("#comm__swiper")
 async function fetchComments() {
     try {
-        const response = await fetch('https://amirbeygi83.github.io/filimo-api/comments.json');
+        const response = await fetch('https://amirbeygi83.github.io/data/comments.json');
         const comments = await response.json();
         comments.map((comment)=>{
             commSwiper.insertAdjacentHTML("afterbegin", `
