@@ -638,15 +638,15 @@ video {
 }
 
 .tab-button.active {
-  background-color: #fbbf24;
+  background-color: #4b4848;
   /* رنگ پس زمینه مشابه فیلیمو */
-  color: #1f2937;
+  color: #fff;
   /* رنگ متن در حالت فعال */
 }
 
 .tab-button:not(.active) {
   background-color: transparent;
-  color: #fbbf24;
+  color: #4b4848;
   /* رنگ متن برای دکمه غیرفعال */
 }
 
@@ -1531,7 +1531,7 @@ video {
   color: rgb(244 132 63 / var(--tw-text-opacity));
 }
 
-.text-\[\#fbbf24\] {
+.text-\[\#4b4848\] {
   --tw-text-opacity: 1;
   color: rgb(251 191 36 / var(--tw-text-opacity));
 }
